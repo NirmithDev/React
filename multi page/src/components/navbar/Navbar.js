@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleNav = () => setNav(!nav)
 
     return (
-    <div className='navbar'>
+    <div name='top' className='navbar'>
       <div className='container'>
         <div className='logo'>
             <SiDatabricks className='icon' />
