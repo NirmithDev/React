@@ -5,6 +5,10 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
+import Recovery from'./routes/Recovery'
+import CloudPage from './routes/CloudPage'
+import ContactPage from './routes/ContactPage'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
